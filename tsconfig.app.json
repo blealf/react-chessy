@@ -15,6 +15,7 @@
     "moduleDetection": "force",
     "noEmit": true,
     "jsx": "react-jsx",
+    "typeRoots": ["./src/types.d.ts", "./node_modules/@types"],
 
     /* Linting */
     "strict": true,
