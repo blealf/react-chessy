@@ -1,6 +1,6 @@
 import { type DragEvent, type ReactNode, useRef } from 'react';
 import Piece from './Piece';
-import type { ChessPieceType, SquarePropsType } from '../types';
+import type { SquarePropsType } from '../types';
 
 
 /* The `Square` component in this TypeScript React code snippet is responsible for rendering a square

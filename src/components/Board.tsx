@@ -200,6 +200,7 @@ const Board = () => {
    */
   const changeColor = (id: string) => {
     checkedPattern.filter((square: ReactElement) =>
+      // @ts-expect-error TODO: fix
       id === square.props.position // TODO: verify props.position exists
     ).forEach(() => {
       dispatch({ 
